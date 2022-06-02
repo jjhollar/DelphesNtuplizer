@@ -3,6 +3,9 @@ DelphesNtuplizer
 
 This package allows you to produce to flat Ntuples from Delphes PhaseII samples.
 
+It is based on the version of https://github.com/recotoolsbenchmarks/DelphesNtuplizer, only modified 
+to save generator-level forward protons for PPS upgrade studies
+
 Table of contents
 =================
   * [Clone](#clone)
@@ -16,7 +19,7 @@ Clone
 
 If you do not attempt to contribute to this repository, simply clone it:
 ```
-git clone git@github.com:recotoolsbenchmarks/DelphesNtuplizer.git
+git clone git@github.com:jjhollar/DelphesNtuplizer.git
 ```
 
 If you aim at contributing to the repository, you need to fork this repository (via the fork button) and then clone the forked repository:
@@ -45,7 +48,7 @@ cmsrel CMSSW_10_0_5
 cd CMSSW_10_0_5
 cmsenv
 cd ..
-git clone https://github.com/delphes/delphes.git
+git clone https://github.com/jjhollar/delphes.git
 cd delphes
 ./configure
 sed -i -e 's/c++0x/c++1y/g' Makefile
