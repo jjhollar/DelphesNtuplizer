@@ -81,8 +81,13 @@ To produce Delphes validation samples run this command (by changing the appropia
 ./DelphesCMSFWLite ../cards/CMS_PhaseII_200PU_Snowmass2021_v0.tcl delphes.root /eos/cms/store/relval/CMSSW_11_2_0_pre9/RelValZMM_14/GEN-SIM-RECO/PU_112X_mcRun4_realistic_v4_2026D66PU200-v1/00000/d3b9f895-0c25-4171-9c21-d6cc9b365891.root
 ```
 
+This will produce output ntuples that can be used for studies. 
+
 Produce Delphes flat trees
 ==========================
+
+It's also possible to produce a reduced ntuple with the instructions in this section. However this may not 
+have all the objects needed, without modifying the code. 
 
 Set up the proper environment:
 
